@@ -1,0 +1,9 @@
+.DS_Store
+*.pyc
+
+.vscode
+
+node_modules
+
+project/web/app/test/coverage
+project/static/

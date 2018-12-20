@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  {% load staticfiles %}
+  {% load render_bundle from webpack_loader %}
+  <head>
+  </head>
+    <body>
+      <div id="app">
+        <loader :repeat=2></loader>
+      </div>
+    </body>
+  {% render_bundle 'main' 'js' %}
+</html>
